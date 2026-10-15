@@ -1,35 +1,28 @@
-# LangChain Core
+# LangChain
 langchain
 langchain-core
-langchain-classic
-sentence-transformers
 
 # OpenAI Integration
 langchain-openai
 openai
 
-#Nvidia
-langchain-nvidia-ai-endpoints
+# Groq Integration
+langchain-groq
 
-# Google Gemini (PaLM) Integration
+# Google Gemini
 langchain-google-genai
 google-generativeai
 
-# Environment Variable Management
+# Environment Variables
 python-dotenv
 
-# Machine Learning Utilities
-numpy
-scikit-learn
-
-#DeepLearning module
-transformers
-torch
-accelerate
-
-#pydantic
+# Data Validation
 pydantic
 
-#PDF reader
+# PDF Processing
 pypdf
 
+# FastAPI
+fastapi
+uvicorn
+python-multipart
