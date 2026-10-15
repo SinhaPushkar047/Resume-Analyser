@@ -101,13 +101,14 @@ function App() {
       formData.append('file', resume)
       formData.append('target_role', targetRole.trim())
 
-      const response = await fetch(
-        'http://127.0.0.1:8000/analyze-resume',
-        {
-          method: 'POST',
-          body: formData,
-        }
-      )
+      const API_URL = import.meta.env.VITE_API_URL;
+
+      
+      const response = await fetch(`${API_URL}/analyze-resume`, {
+        method: 'POST',
+        body: formData,
+      });
+
 
       const data = await response.json()
 

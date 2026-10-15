@@ -4,5 +4,7 @@ frontend/node_modules/
 Backend/venv/
 .venv/
 __pycache__/
-.env
 dist/
+.env.local
+.env.*
+!.env.example
