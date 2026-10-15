@@ -1,0 +1,35 @@
+# LangChain Core
+langchain
+langchain-core
+langchain-classic
+sentence-transformers
+
+# OpenAI Integration
+langchain-openai
+openai
+
+#Nvidia
+langchain-nvidia-ai-endpoints
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+#DeepLearning module
+transformers
+torch
+accelerate
+
+#pydantic
+pydantic
+
+#PDF reader
+pypdf
+
