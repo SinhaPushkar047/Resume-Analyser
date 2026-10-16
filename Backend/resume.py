@@ -27,7 +27,7 @@ model_1 = ChatGroq(
 )
 
 model_2 = ChatGoogleGenerativeAI(
-    model="gemini-3.5-flash",
+    model="gemini-3.5-flash-lite",
     temperature=0.2
 )
 
