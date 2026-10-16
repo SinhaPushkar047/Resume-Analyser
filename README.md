@@ -106,6 +106,7 @@ Resume-Analyser/
 ├── Backend/
 │   ├── api.py
 │   ├── resume.py
+|   ├── schemas.py
 │   ├── prompt_template_1.py
 │   └── prompt_template_2.py
 ├── frontend/
