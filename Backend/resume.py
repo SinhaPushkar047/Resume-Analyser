@@ -34,6 +34,8 @@ model_2 = ChatGoogleGenerativeAI(
 chain_1 = prompt_1 | model_1 | parser_1
 chain_2 = prompt_2 | model_2 | parser_2
 
+print("RESUME.PY LOADED:", __file__)
+print("GEMINI MODEL:", model_2.model)
 
 def analyze_resume(pdf_file, target_role):
     if not target_role or not target_role.strip():
