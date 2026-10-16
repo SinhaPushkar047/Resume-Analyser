@@ -15,6 +15,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://resume-analyser-six.vercel.app",
+        "https://resume-analyser-6k5at1f8z-sinhapushkar047.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
